@@ -1,0 +1,251 @@
+body {
+    margin: auto;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 19em;
+}
+
+.img {
+    width: 132px;
+    height: 41.8px;
+    margin-left: 10vh;
+    color: white;
+}
+
+.nav-3 {
+    display: flex;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+}
+
+.nav-3>a {
+    padding: 10px;
+}
+
+.nav-3>a:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+.principal {
+    width: 100%;
+    height: 100vh;
+    background-color: #2941AB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.principal-h1 {
+    font-size: 156px;
+    font-family: "Nunito", sans-serif;
+    color: rgb(30, 215, 96);
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    letter-spacing: -10px;
+    font-weight: bold;
+}
+
+.principal-p {
+    margin: 0 auto;
+    color: rgb(30, 215, 96);
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 30px;
+}
+
+.principal-a {
+    display: flex;
+    background-color: rgb(30, 215, 96);
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2941AB;
+}
+
+.principal-a:hover {
+    transform: scale(1.04);
+}
+
+footer {
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    flex-direction: column;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.footer-content-info {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+}
+
+.img-footer {
+    padding-top: 75px;
+    display: flex;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 30px;
+}
+
+.footer-empresa {
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.footer-2>a {
+    padding: 3px 0 15px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-2>a:hover {
+    color: rgb(30, 215, 96);
+}
+
+.footer-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 30px;
+}
+
+.footer-3>a {
+    padding: 3px 0 15px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-3>a:hover {
+    color: rgb(30, 215, 96);
+}
+
+.footer-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 30px;
+}
+
+.footer-4>a {
+    padding: 3px 0 15px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-4>a:hover {
+    color: rgb(30, 215, 96);
+}
+
+.footer-5 {
+    display: flex;
+    padding: 75px 30px;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.bg-icon {
+    background-color: #222326;
+    width: 54px;
+    height: 54px;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    display: inline-flex;
+    border-radius: 50%;
+    margin: 0.5em;
+}
+
+.footer-final {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 3em 19em;
+    box-sizing: border-box;
+}
+
+.footer-final-1 {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-final-1>a {
+    padding: 20px;
+    color: #919496;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-final-1>a:hover {
+    color: rgb(30, 215, 96);
+}
+
+.footer-final-2>div {
+    padding: 0px 20px 10px 0px;
+}
+
+.footer-final-2>div>a {
+    padding: 0px 20px 20px 00px;
+    color: #919496;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-final-2>div>a:hover {
+    color: rgb(30, 215, 96);
+}
+
+.footer-final-2 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+/*# sourceMappingURL=estilo.css.map */
